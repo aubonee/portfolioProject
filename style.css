@@ -1,0 +1,151 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'poppins',sans-serif;
+ 
+ }
+ body{
+    background-color: gainsboro;
+ }
+ .nav{
+     background-color: whitesmoke;
+     width:100%;
+     height:8vh;
+     box-shadow: teal;
+
+ }
+  .head{
+    float:left;
+    color: #154c79;
+    text-decoration: none;
+ }
+ .nav .head .name{
+    font-family: 'Pacifico', cursive;
+ }
+
+ .nav .menu ul li{
+     list-style-type: none;
+    float:right;
+    padding:20px;
+ }
+ .nav .menu ul li a{
+    color: #154c79;
+    text-decoration: none;
+    font-family: 'Roboto Slab', serif;
+    
+ }
+ .nav .menu ul li a:hover{
+    color: gray;
+ }
+ .submenu-container{
+     position:relative;
+ }
+  .sub-menu{
+      position: absolute;
+      background-color: gray;
+      top: 30 px;
+     text-align:start;
+     display:none; 
+     
+
+ }
+ .submenu-container:hover .sub-menu{
+    display:block; 
+   }
+ .submenu-container .sub-menu ul li a{
+    color: #154c79;
+    text-decoration: none;
+    font-family: 'Roboto Slab', serif;
+    
+    
+ }
+ .submenu-container .sub-menu ul li a:hover{
+    color: #ecf1f5;
+    text-decoration: none;
+    font-family: 'Roboto Slab', serif;
+ }
+
+ 
+ 
+ 
+ 
+ .div1{
+    background-color:#154c79;
+    height:250px;
+    border:5px ;
+    padding :25px;
+    margin:20px;
+   
+    
+ }
+ .div1 img{
+     height:180px;
+     width:180px;
+     float:left;
+     border-radius: 50%;
+     margin:10px;
+     border: 5px  solid #a1b7c9;
+ }
+ .div1 h4{
+     font-size:18px;
+     margin:20px;
+     margin-top:40px;
+     color: whitesmoke;
+     font-family: 'Roboto Slab', serif;
+       
+ }
+ 
+ 
+ h1{
+     text-align: center;
+     font-family: 'Pacifico', cursive;
+     text-underline-position:below;
+ }
+ .grid-container{
+     display:grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     grid-row-gap: 10px;
+    
+ }
+ .grid-container div{
+     background-color: #154c79;
+     padding :25px;
+     margin-right: 20px;
+     margin-left:20px;
+     text-decoration: peachpuff;
+     
+ }
+ .grid-container div i{
+     color:peachpuff;
+     text-align:center;
+ }
+ .grid-container div p{
+     color:#b9c9d7;
+     font-family: 'Oxygen', sans-serif;
+     
+
+ }
+ .footer{
+     background-color: #a1b7c9;
+     padding :25px;
+     margin-right: 20px;
+     margin-left:20px;
+     border:5px ;
+ }
+ .footer-icon{
+    text-align:center;
+    
+ }
+ .footer .contactdetails{
+     text-align:center;
+     color: #154c79 ;
+ }
+ .footer a i{
+     
+     color: #154c79 ;
+     padding :25px;
+     text-align:center;  
+     
+ }
+ 
